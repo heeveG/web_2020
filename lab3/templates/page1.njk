@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<title>My Page</title>
+<p>Hello, {{ name }}</p>
+<hr>
+<h3>Request data</h3>
+<dl>
+
+<dt>Method</dt>
+<dd>{{method}}</dd>
+
+<dt>Query</dt>
+<dd><pre>{{query}}</pre></dd>
+
+<dt>Body</dt>
+<dd><pre>{{body}}</pre></dd>
+
+
+<dt>Another Param</dt>
+<dd>{{anotherParam}}</dd>
+</dl>
+<hr>
+
+<form action="/" method="post">
+    Weight
+    <input name="weight" value="" />
+    <br>
+    Height
+    <input name="height" value="" />
+
+    <button>Send!</button>
+</form>
+
+{{ anotherParam}}
